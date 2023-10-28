@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+nav{
+
+width: 100%;
+background-color: #303030;
+height:30px;
+font-size: large;
+
+}
+.navbar{
+    color:rgb(212,213,214);
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 10%;
+    border: 2px red;
+}
+nav li{
+   margin:5px;
+}
+.discount{
+    height:30px;
+    background-color: #1C2739;
+    color:#F0E3CA;
+   text-align: center;
+   padding-top:15px;
+    
+}
+.main img{
+    z-index: 2;
+    width: 100%;
+    height: 95%;
+}
+.para{
+    width:100%;
+    background-color: #1C2739;
+    color: aliceblue;
+    position: absolute;
+    background-color: black;
+    text-align: center;
+}
+.para p{
+    margin-top: 15px;
+    font-size: x-large;
+}
+.para b{
+    font-size: xx-large;
+    font-style:inherit;
+    text-shadow: #F0E3CA;
+ 
+}
+.para:last-child{
+    color:#2997FF;
+}
+.para button{
+    font-size:large;
+    background-color:#0071E3;
+    padding:5px 10px 5px 10px;
+    border-radius: 15px;
+    border: none;
+}
+.para1{
+    display: flex;
+    flex-direction: row;
+    background-color:#FBFBFD; ;
+    
+}
+.para1 div{
+    width: 50%;
+    height: 95vh;
+    background-color:#FBFBFD;
+    color: black;
+}
+
+.pro{
+    padding-top:180px;
+}
